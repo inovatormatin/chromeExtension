@@ -1,0 +1,44 @@
+.ctgTag {
+    margin: .5rem 0
+}
+.ctgTag span{
+    background-color: #e3e3e3;
+    font-weight: 300;
+    color: #272727;
+    font-size: .7rem;
+    margin-right: .5rem;
+    padding: .3rem .6rem;
+    border-radius: 5px;
+}
+.Store section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem .2rem;
+}
+.Store section img{
+    width: 150px;
+}
+.Store section strong {
+    font-size: 1rem;
+}
+.Store section strong span{
+    font-size: 1.5rem;
+}
+.Store h5{
+    margin: 1rem 0 0 0;
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+}
+.Store h6{
+    font-size: .8rem;
+}
+.Store h5 svg{
+    margin-right: .3rem;
+}
+.desc{
+    font-size: .8rem;
+    margin: .5rem 0;
+    overflow: hidden;
+}

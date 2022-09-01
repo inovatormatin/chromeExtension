@@ -1,0 +1,14 @@
+.Navigation{
+    text-align: center;
+    margin: 1rem;
+}
+.Navigation span{
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navigation span svg{
+    margin-right: .4rem;
+}

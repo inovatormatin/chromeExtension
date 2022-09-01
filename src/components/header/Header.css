@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+.header img{
+    width: 150px;
+}
+.header button{
+    background-color: #2999fa;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    padding: .2rem .5rem;
+    border-radius: .2rem;
+}
+.header button:hover{
+    background-color: #0585f4;
+}

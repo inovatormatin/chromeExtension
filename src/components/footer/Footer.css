@@ -1,0 +1,14 @@
+.Footer{
+    margin-top: 1rem;
+}
+.Footer p{
+    font-size: .7rem;
+    cursor: pointer;
+}
+.Footer a{
+    color: #2999fa;
+}
+.Footer a svg{
+    font-size: .6rem;
+    margin-left: .3rem;
+}

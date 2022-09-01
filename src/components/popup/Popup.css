@@ -1,0 +1,74 @@
+/* <style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+</style> */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+.offerPopup{
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    width: 270px;
+    padding: .5rem;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#headerLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#headerLogo img{
+    width: 100px;
+}
+.CloseButton{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+.CloseButton img{
+    width: 12px !important;
+    transition: all ease-in-out 300ms;
+}
+.CloseButton img:hover{
+    transform: rotate(90deg);
+}
+.offerPopup section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.offerPopup section img{
+    margin: .5rem;
+    width: 100%;
+    max-height: 130px;
+    border: #8080805b solid 1px;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+.offerPopup section strong{
+    font-size: 1.2rem;
+}
+.offerPopup section strong span{
+    font-size: 1.5rem;
+}
+.offerPopup section p{
+    font-size: .8rem;
+    font-weight: 400;
+    color: #7d7d7d;
+}
+.offerPopup section button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    padding: .8rem 0;
+    width: 100%;
+    margin: .8rem 0;
+    border-radius: 5px;
+    background-color: #188bfe;
+    font-family: 'Raleway', sans-serif;
+}
+.offerPopup section button:active{
+    background-color: #0076ec;
+}

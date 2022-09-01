@@ -1,0 +1,32 @@
+{
+    "short_name": "extrapaisa",
+    "name": "Extrapaisa cashback offers and coupons",
+    "icons": {
+      "16": "favicon.ico",
+      "32": "logo32.png",
+      "150": "logo150.png",
+      "192": "logo192.png"
+    },
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "scripting"
+    ],
+    "host_permissions": [
+      "https://*/",
+      "http://*/"
+    ],
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "content_scripts": [
+      {
+        "js" : ["init.js"],
+        "matches": ["https://*/*"],
+        "run_at" : "document_end"
+      }
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "default_title": "Extrapaisa"
+    }
+  }

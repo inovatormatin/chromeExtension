@@ -1,0 +1,70 @@
+.StoreCard {
+    position: relative;
+    border-radius: 5px;
+    width: 45%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: .8rem;
+}
+
+.upperCirlce {
+    position: absolute;
+    background-color: #0057ad;
+    border-radius: 0 0 150px 150px;
+    height: 23%;
+    width: 50%;
+    top: -4%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;   
+    align-items: center;   
+    color: white;
+    font-size: .7rem;
+}
+.downCirlce {
+    position: absolute;
+    background-color: #00458a;
+    border-radius: 150px 150px 0 0;
+    height: 35%;
+    width: 80%;
+    bottom: -7%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;   
+    display: flex;
+    justify-content: center;   
+    align-items: center;   
+    color: white;
+    font-size: .8rem;
+}
+
+.StoreCard img {
+    width: 70%;
+    aspect-ratio: 2.4 / 1;
+}
+
+.tags {
+    padding: .3rem 0rem;
+    font-size: .8rem;
+    font-weight: 300;
+    width: 53%;
+    min-width: 53%;
+}
+
+strong {
+    font-size: .8rem;
+}
+
+.maxPayoutRate {
+    font-size: .8rem;
+    color: #e5e5e5;
+}
